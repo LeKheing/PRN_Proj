@@ -1,0 +1,95 @@
+﻿<Window x:Class="ManageInventory.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManageInventory"
+        xmlns:uc="clr-namespace:ManageInventory.UserControlKhang"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Style="{StaticResource MaterialDesignWindow}"
+        TextElement.Foreground="{DynamicResource MaterialDesign.Brush.Foreground}"
+        Background="{DynamicResource MaterialDesign.Brush.Background}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        mc:Ignorable="d"
+        DataContext="{StaticResource LoginVM}"
+        Name="loginWindow"
+        WindowStartupLocation="CenterScreen"
+        Title="Quản lí kho hàng" Height="300" Width="400">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <uc:ControlBarUC Tag="{Binding Title, ElementName=loginWindow}"></uc:ControlBarUC>
+        </Grid>
+        <materialDesign:Card Grid.Row="1" Width="330" Height="150" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid>
+                <Grid.Resources>
+                    <Style TargetType="Grid">
+                        <Setter Property="Margin" Value="15 0 15 0"></Setter>
+                    </Style>
+                </Grid.Resources>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <TextBox
+                      VerticalAlignment="Center"
+                      materialDesign:HintAssist.Hint="Tên đăng nhập"
+                      Text="{Binding UserName}"
+                      Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                      />
+                </Grid>
+                <Grid Grid.Row="1">
+                    <PasswordBox
+                      x:Name="FloatingPasswordBox"
+                      materialDesign:HintAssist.Foreground="Green"
+                      materialDesign:HintAssist.Hint="Mật khẩu"
+                      materialDesign:TextFieldAssist.UnderlineBrush="Green"  
+                      Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                      >
+                        <i:Interaction.Triggers>
+                            <i:EventTrigger EventName="PasswordChanged">
+                                <i:InvokeCommandAction Command="{Binding PasswordChangedCommand}" 
+                                    CommandParameter="{Binding ElementName=FloatingPasswordBox}"/>
+                            </i:EventTrigger>
+                        </i:Interaction.Triggers>
+                    </PasswordBox>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"
+                      Width="110"
+                      Content="Thoát"
+                      Background="OrangeRed"
+                      IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                      Style="{StaticResource MaterialDesignRaisedLightButton}"
+                      Command="{Binding CloseCommand}"
+                      CommandParameter="{Binding ElementName=loginWindow}" 
+                      ToolTip="Resource name: MaterialDesignRaisedLightButton" />
+                    <Button Grid.Column="1"
+                      Width="110"
+                      Content="Đăng nhập"
+                      IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                      Style="{StaticResource MaterialDesignRaisedSecondaryButton}"
+                      Command="{Binding LoginCommand}"
+                      CommandParameter="{Binding ElementName=loginWindow}" 
+                      ToolTip="Resource name: MaterialDesignRaisedSecondaryButton" />
+                </Grid>
+            </Grid>
+        </materialDesign:Card>
+    </Grid>
+</Window>
