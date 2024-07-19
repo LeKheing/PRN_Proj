@@ -40,8 +40,6 @@ D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\obj\Debug\net8.0-windows\Cus
 D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\obj\Debug\net8.0-windows\CustomerWindow.baml
 D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\obj\Debug\net8.0-windows\ObjectWindow.g.cs
 D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\obj\Debug\net8.0-windows\ObjectWindow.baml
-D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\obj\Debug\net8.0-windows\UserWindow.g.cs
-D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\obj\Debug\net8.0-windows\UserWindow.baml
 D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\obj\Debug\net8.0-windows\InputWindow.g.cs
 D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\obj\Debug\net8.0-windows\InputWindow.baml
 D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\obj\Debug\net8.0-windows\OutputWindow.g.cs
@@ -159,3 +157,4 @@ D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\bin\Debug\net8.0-windows\run
 D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
 D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
 D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Khang\Ki5\PRN212\ManageInventory\ManageInventory\obj\Debug\net8.0-windows\ManageInventory.sourcelink.json

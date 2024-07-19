@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|d:\\khang\\ki5\\prn212\\manageinventory\\manageinventory\\viewmodel\\outputinforviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|solutionrelative:manageinventory\\viewmodel\\outputinforviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|d:\\khang\\ki5\\prn212\\manageinventory\\manageinventory\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|solutionrelative:manageinventory\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|d:\\khang\\ki5\\prn212\\manageinventory\\manageinventory\\viewmodel\\inputinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|solutionrelative:manageinventory\\viewmodel\\inputinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|d:\\khang\\ki5\\prn212\\manageinventory\\manageinventory\\inputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|solutionrelative:manageinventory\\inputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|d:\\khang\\ki5\\prn212\\manageinventory\\manageinventory\\resourcexaml\\mainresource.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|solutionrelative:manageinventory\\resourcexaml\\mainresource.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|d:\\khang\\ki5\\prn212\\manageinventory\\manageinventory\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|solutionrelative:manageinventory\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|d:\\khang\\ki5\\prn212\\manageinventory\\manageinventory\\outputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|solutionrelative:manageinventory\\outputwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|d:\\khang\\ki5\\prn212\\manageinventory\\manageinventory\\models\\inputinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A07580-B4D0-4EDD-BAAA-17CD5D845297}|ManageInventory\\ManageInventory.csproj|solutionrelative:manageinventory\\models\\inputinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 208,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,78 +34,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ManageInventory\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "ManageInventory\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AQIAAH4AAAAAAAAAAAAAAIkAAABsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:27:37.167Z",
+              "DocumentIndex": 1,
+              "Title": "MainResource.xaml",
+              "DocumentMoniker": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\ResourceXAML\\MainResource.xaml",
+              "RelativeDocumentMoniker": "ManageInventory\\ResourceXAML\\MainResource.xaml",
+              "ToolTip": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\ResourceXAML\\MainResource.xaml",
+              "RelativeToolTip": "ManageInventory\\ResourceXAML\\MainResource.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-18T14:01:04.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InputWindow.xaml",
-              "DocumentMoniker": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\InputWindow.xaml",
-              "RelativeDocumentMoniker": "ManageInventory\\InputWindow.xaml",
-              "ToolTip": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\InputWindow.xaml",
-              "RelativeToolTip": "ManageInventory\\InputWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-17T09:23:19.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InputInfoViewModel.cs",
-              "DocumentMoniker": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\ViewModel\\InputInfoViewModel.cs",
-              "RelativeDocumentMoniker": "ManageInventory\\ViewModel\\InputInfoViewModel.cs",
-              "ToolTip": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\ViewModel\\InputInfoViewModel.cs",
-              "RelativeToolTip": "ManageInventory\\ViewModel\\InputInfoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ManageInventory\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "ManageInventory\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAADwvysAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:23:13.128Z",
+              "WhenOpened": "2024-07-18T14:00:50.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OutputInforViewModel.cs",
-              "DocumentMoniker": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\ViewModel\\OutputInforViewModel.cs",
-              "RelativeDocumentMoniker": "ManageInventory\\ViewModel\\OutputInforViewModel.cs",
-              "ToolTip": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\ViewModel\\OutputInforViewModel.cs",
-              "RelativeToolTip": "ManageInventory\\ViewModel\\OutputInforViewModel.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAAwJgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:22:16.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OutputWindow.xaml",
-              "DocumentMoniker": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\OutputWindow.xaml",
-              "RelativeDocumentMoniker": "ManageInventory\\OutputWindow.xaml",
-              "ToolTip": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\OutputWindow.xaml",
-              "RelativeToolTip": "ManageInventory\\OutputWindow.xaml",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ManageInventory\\MainWindow.xaml",
+              "ToolTip": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\MainWindow.xaml",
+              "RelativeToolTip": "ManageInventory\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-17T09:21:37.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InputInfo.cs",
-              "DocumentMoniker": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\Models\\InputInfo.cs",
-              "RelativeDocumentMoniker": "ManageInventory\\Models\\InputInfo.cs",
-              "ToolTip": "D:\\Khang\\Ki5\\PRN212\\ManageInventory\\ManageInventory\\Models\\InputInfo.cs",
-              "RelativeToolTip": "ManageInventory\\Models\\InputInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T09:19:19.988Z",
+              "WhenOpened": "2024-07-18T08:26:05.957Z",
               "EditorCaption": ""
             }
           ]

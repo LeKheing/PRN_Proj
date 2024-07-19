@@ -60,7 +60,6 @@
                         <ColumnDefinition></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <Button ToolTip="Nhập" Command="{Binding InputCommand}" Grid.Column="0">
                         <Grid>
@@ -146,20 +145,7 @@
                             </Grid>
                         </Grid>
                     </Button>
-                    <Button ToolTip="Người dùng" Command="{Binding UserCommand}" Grid.Column="6">
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition></RowDefinition>
-                                <RowDefinition></RowDefinition>
-                            </Grid.RowDefinitions>
-                            <Grid Grid.Row="0">
-                                <TextBlock Text="Người dùng" VerticalAlignment="Center"></TextBlock>
-                            </Grid>
-                            <Grid Grid.Row="1">
-                                <materialDesign:PackIcon Kind="AccountCircle"  Width="24" Height="24" HorizontalAlignment="Center"/>
-                            </Grid>
-                        </Grid>
-                    </Button>
+                    
 
                 </Grid>
             </Grid>
@@ -223,17 +209,6 @@
                                                 VerticalAlignment="Center"
                                                 Style="{StaticResource MaterialDesignHeadline5TextBlock}"
                                                 Text="{Binding TotalSumInput}" />
-                                            <materialDesign:PopupBox
-                                                    Grid.Row="2"
-                                                    Padding="2,0,2,0"
-                                                    HorizontalAlignment="Right">
-                                                <StackPanel>
-                                                    <Button
-                                                            Content="More" />
-                                                    <Button
-                                                            Content="Options" />
-                                                </StackPanel>
-                                            </materialDesign:PopupBox>
                                         </Grid>
                                     </materialDesign:Card>
                                 </Grid>
@@ -268,17 +243,6 @@
                                                 VerticalAlignment="Center"
                                                 Style="{StaticResource MaterialDesignHeadline5TextBlock}"
                                                 Text="{Binding TotalSumOutput}" />
-                                            <materialDesign:PopupBox
-                                                Grid.Row="2"
-                                                Padding="2,0,2,0"
-                                                HorizontalAlignment="Right">
-                                                <StackPanel>
-                                                    <Button
-                                                        Content="More" />
-                                                    <Button
-                                                        Content="Options" />
-                                                </StackPanel>
-                                            </materialDesign:PopupBox>
                                         </Grid>
                                     </materialDesign:Card>
                                 </Grid>
@@ -313,17 +277,6 @@
                                                 VerticalAlignment="Center"
                                                 Style="{StaticResource MaterialDesignHeadline5TextBlock}"
                                                 Text="{Binding TotalInventoryCount}" />
-                                            <materialDesign:PopupBox
-                                                Grid.Row="2"
-                                                Padding="2,0,2,0"
-                                                HorizontalAlignment="Right">
-                                                <StackPanel>
-                                                    <Button
-                                                        Content="More" />
-                                                    <Button
-                                                        Content="Options" />
-                                                </StackPanel>
-                                            </materialDesign:PopupBox>
                                         </Grid>
                                     </materialDesign:Card>
                                 </Grid>
@@ -343,40 +296,7 @@
                             <RowDefinition Height="auto"></RowDefinition>
                             <RowDefinition></RowDefinition>
                         </Grid.RowDefinitions>
-                        <Grid Grid.Row="0" Margin="5">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="auto"></ColumnDefinition>
-                                <ColumnDefinition Width="auto"></ColumnDefinition>
-                                <ColumnDefinition Width="auto"></ColumnDefinition>
-                            </Grid.ColumnDefinitions>
-                            <Grid Grid.Column="0">
-                                <DatePicker
-                                    VerticalAlignment="Center"
-                                    HorizontalAlignment="Left"
-                                    Width="100"
-                                    materialDesign:HintAssist.Hint="Ngày bắt đầu"
-                                    Style="{StaticResource MaterialDesignFloatingHintDatePicker}"
-                                    />
-                            </Grid>
-                            <Grid Grid.Column="1">
-                                <DatePicker
-                                    VerticalAlignment="Center"
-                                    HorizontalAlignment="Left"
-                                    Width="100"
-                                    materialDesign:HintAssist.Hint="Ngày kết thúc"
-                                    Style="{StaticResource MaterialDesignFloatingHintDatePicker}"
-                                    />
-                            </Grid>
-                            <Grid Grid.Column="2">
-                                <Button
-                                    Width="100"
-                                    Margin="5"
-                                    Content="Lọc"
-                                    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
-                                    Style="{StaticResource MaterialDesignRaisedButton}"
-                                    ToolTip="Resource name: MaterialDesignRaisedButton" />
-                            </Grid>
-                        </Grid>
+
 
                         <Grid Grid.Row="1">
                             <Separator Margin="5" VerticalAlignment="Stretch"></Separator>

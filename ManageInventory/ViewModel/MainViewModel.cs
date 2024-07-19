@@ -42,7 +42,6 @@ namespace ManageInventory.ViewModel
         public ICommand SupplierCommand { get; set; }
         public ICommand CustomerCommand { get; set; }
         public ICommand ObjectCommand { get; set; }
-        public ICommand UserCommand { get; set; }
         public ICommand InputCommand { get; set; }
         public ICommand OutputCommand { get; set; }
         public MainViewModel()
@@ -87,11 +86,6 @@ namespace ManageInventory.ViewModel
             ObjectCommand = new RelayCommand<object>((p) => { return true; }, (p) =>
             {
                 OpenWindow(new ObjectWindow());
-            });
-
-            UserCommand = new RelayCommand<object>((p) => { return true; }, (p) =>
-            {
-                OpenWindow(new UserWindow());
             });
 
             InputCommand = new RelayCommand<object>((p) => { return true; }, (p) =>

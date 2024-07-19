@@ -104,6 +104,41 @@ namespace ManageInventory.ViewModel
 
                 SelectedItem.DisplayName = DisplayName;
             });
+
+            DeleteCommand = new RelayCommand<object>((p) =>
+            {
+                return true;
+
+            }, (p) =>
+            {
+                var Suplier = DataProvider.Ins.DB.Supliers.Where(x => x.Id == SelectedItem.Id).FirstOrDefault();
+                var obj = DataProvider.Ins.DB.Objects.Where(x => x.IdSuplier == Suplier.Id).ToList();
+
+                if (obj != null && obj.Count() > 0)
+                {
+                    foreach (var item in obj)
+                    {
+                        var inputInfos = DataProvider.Ins.DB.InputInfos.Where(x => x.IdObject == item.Id);
+                        if (inputInfos.Count() > 0)
+                        {
+                            foreach (var inputInfo in inputInfos)
+                                DataProvider.Ins.DB.InputInfos.Remove(inputInfo);
+                        }
+
+                        var outputInfors = DataProvider.Ins.DB.OutputInfos.Where(x => x.IdObject == item.Id);
+                        if (outputInfors.Count() > 0)
+                        {
+                            foreach (var outputInfo in outputInfors)
+                                DataProvider.Ins.DB.OutputInfos.Remove(outputInfo);
+                        }
+                        DataProvider.Ins.DB.Remove(item);
+                    }
+                }
+
+                DataProvider.Ins.DB.Supliers.Remove(Suplier);
+                List.Remove(Suplier);
+                DataProvider.Ins.DB.SaveChanges();
+            });
         }
     }
 }

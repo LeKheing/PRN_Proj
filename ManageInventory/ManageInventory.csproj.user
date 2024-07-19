@@ -31,9 +31,6 @@
     <Compile Update="UserControlKhang\ControlBarUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UserWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="CustomerWindow.xaml">
@@ -64,9 +61,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControlKhang\ControlBarUC.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UserWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
